@@ -1,0 +1,29 @@
+/* Miguel Angel Molina Sanchez
+Aplicaciones Web
+18/11/25
+*/
+
+body{ cursor: url('../img/cursor.png'), auto;
+    cursor: ew-resize;
+}
+
+header, footer{
+    background-image: linear-gradient(to right, blue, white,green);
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: -5px 5px 5px black;
+    text-shadow: 5px 5px 5px blue;
+    cursor: all-scroll;
+}
+
+div{
+    border: 1px solid black;
+    margin: 100px;
+    padding: 10px;
+    background-color: blueviolet;
+    height: 150px;
+    box-shadow: -20px -20px 5px rgba(90, 8, 114, 0.95);
+    text-shadow: 10px 10px 5px greenyellow;
+    cursor: crosshair;
+}

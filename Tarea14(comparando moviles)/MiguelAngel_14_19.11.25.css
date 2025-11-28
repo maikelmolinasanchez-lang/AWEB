@@ -1,0 +1,45 @@
+/*
+    Creando Tablas de nivel I
+*/
+
+body{
+    background-image: url(/Tarea14/29335.webp);
+}
+
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+h4{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+table{
+    margin-top: 50px;
+    caption-side: bottom;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: white;
+}
+
+th{
+    background-color: rgb(195, 213, 255);
+    color: rgb(0, 0, 0);
+}
+
+th > img{
+    width: 50%;
+}
+
+
+td, th{
+    border: 2px solid rgb(137, 137, 137);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

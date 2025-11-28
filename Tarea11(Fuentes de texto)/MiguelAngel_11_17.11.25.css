@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.header {
+    padding: 25px;
+    color: rgb(240, 108, 0);
+    text-align: center;
+    background-color: orange;
+    border: solid 3px black;
+}
+
+.header > a{
+    padding: 15px;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    color: orange;
+    font-family: "Rubik Glitch", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Inicio{
+    padding: 20px 10px 20px 10px;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Desarrollo{
+    padding: 20px 10px 20px 10px;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Final{
+    padding: 20px 10px 20px 10px;
+}
+
+
+a > img{
+    padding-left: 450px;
+
+}
+
+

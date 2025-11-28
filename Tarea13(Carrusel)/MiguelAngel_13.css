@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Sirin+Stencil&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62, 5%;
+}
+
+body {
+    font-size: 1.6rem;
+    padding: 2rem;
+    background: linear-gradient(to right, rgb(255, 140, 0) 0%,  rgb(237, 221, 83, 1) 100%);
+    cursor:alias;
+}
+
+section {
+    display: flex;
+    height: 300px;
+    cursor: n-resize;
+    padding: 15px;
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    transition: 4s ease;
+    border-radius: 20px;
+}
+
+section img:hover {
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+p{
+    font-family: "Sirin Stencil", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    margin: 1rem auto 1rem ato;
+}
+
+h1{
+    font-family: "Rubik Glitch", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    cursor: crosshair ;
+}
