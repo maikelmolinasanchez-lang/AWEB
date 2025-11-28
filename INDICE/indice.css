@@ -1,0 +1,57 @@
+/* Indice de ejercicios
+6 de noviembre 2025
+Miguel Angel Molina Sanchez*/
+
+*{
+        margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62,5%;
+}
+
+body{
+    font-size: 1.6rem;
+    display:flex;
+    flex-direction: column;
+    background-position: center center;
+    background-image: url(../imagenes/indice\ nuevo.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+}
+
+
+h1, footer{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+}
+
+div{
+    background-color: rgba(0, 240, 253, 0.859);
+    color: aliceblue;
+    text-align: center;
+    overflow: hidden;
+    width: 80%;
+    border-radius: 7px;
+    text-decoration: none;
+    border: black 3px solid;
+    padding: 5px;
+    }
+
+div > a{
+    color: black;
+    text-decoration: none;
+}
+
+.Tareas{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 61.6px 30px;
+    margin: 20px 20px;
+}

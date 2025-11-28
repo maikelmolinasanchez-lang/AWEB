@@ -1,0 +1,39 @@
+/*Miguel Angel Molina
+24 de noviembre de 2025
+Mundial video*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 1200px;
+}
+
+#videoF{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+header, footer{
+    background-color: beige;
+    padding: 20px;
+    border: dashed;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    text-align: center;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+}

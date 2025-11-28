@@ -1,0 +1,48 @@
+/*
+Miguel Angel Molina Sanchez
+24 de Octubre de 2025
+*/
+*{
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 25x;
+}
+
+*::selection{
+    background: red;
+}
+
+main{
+    background-image: linear-gradient(to bottom , rgb(0, 225, 255), rgb(241, 239, 86));
+}
+
+h3::before, h3::after{
+    content: "''";
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+h3{
+    color: white;
+    text-transform: lowercase;
+}
+
+h1,h3{
+    text-align: center;
+}
+
+article{
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: justify;
+    column-count: 4;
+    column-gap: 2em;
+    column-rule: 3px solid rgb(255, 94, 0);
+}
+
+p::first-letter{
+    font-size: 2.5em;
+    color: orange;
+}

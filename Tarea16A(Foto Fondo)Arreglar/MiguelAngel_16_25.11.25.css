@@ -1,0 +1,38 @@
+/*Miguel Angel Molina
+24 de noviembre de 2025
+Background video*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(mundial\ 2026.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header, footer{
+    background-color: beige;
+    padding: 20px;
+    border: dashed;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    text-align: center;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+}
+

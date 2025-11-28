@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="MiguelAngel_15_20.11.25.css">
+</head>
+
+<body>
+    <h1>Postulacion One40Towers</h1>
+    <form action="enviar.php" method="post" target="_blank">
+        <input type="image" src="naranjas aks.png" class="imagen">
+        <input type="image" src="naranjas aks.png" class="imagen2">
+        <fieldset class="ic">
+            <h2>Datos IC</h2>
+            <label for="">Nombre ic:</label>
+            <input type="text">
+            <label for="">Apellidos ic:</label>
+            <input type="text">
+            <label for="">Fecha de Nacimiento</label>
+            <input type="date">
+            <p>Color de la ultima banda que has estado</p>
+            <input type="color">
+            <p>¿En cuantas orgas has estado?</p>
+            <input type="number" min="0" max="5">
+        </fieldset>
+        <fieldset class="ooc">
+            <h2>Datos OOC</h2>
+            <textarea placeholder="Cuentame algo sobre ti" rows="10" cols="30"></textarea>
+            <div class="menuF">
+                <p>Tienes claras toda la normativa de SpainRol?</p>
+                <input type="checkbox">
+            </div>
+            <label for="">¿De donde eres?</label>
+            <select name="pais" id="paises">
+                <option value="spain">Europa</option>
+                <option value="france">Latam</option>
+            </select>
+            <label for="">Manda tus 5 mejores clips</label>
+            <input type="file">
+            Deja tu gmail y contraseña para mandarte el resultado de tu postulacion
+            <input type="email">
+            <input type="password">
+        </fieldset>
+        <fieldset>
+            <h2>Enviar Postulacion</h2>
+            <p>Cuando la mandaste</p>
+            <input type="datetime-local">
+        </fieldset>
+        <button>Botom</button>
+        <input type="submit" value="Enviar postulacion">
+    </form>
+</body>
+
+</html>
