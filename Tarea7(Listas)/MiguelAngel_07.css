@@ -1,0 +1,73 @@
+/**
+    CSS Listas Octubre 2025
+    Miguel Angel Molina Sanchez
+**/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 35px auto;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+div{
+    background-color: rgb(240, 194, 154);
+    width: 80%;
+    margin: auto;
+    border: 5px dotted;
+    padding: 20px;
+}
+
+ul li{
+   list-style-type: none;
+   background-size: 25px;
+   background-repeat: no-repeat;
+   background-position: left center;
+	   background-position-x: -5px;
+   padding: 0px 0px 0px 25px;
+}
+
+.cpu{
+    background-image: url(./cpu.jpg);
+}
+
+.memoria{
+    background-image: url(./memoria.webp);    
+}
+
+.almacenamiento{
+    background-image: url(./almacenamiento.webp);      
+}
+
+.grafica{
+    background-image: url(./grafica.webp);
+}
+
+.wifi{
+    background-image: url(./wifi\ 6.webp);
+}
+
+.puertosT{
+    background-image: url(./Puertos.webp);
+}
+
+.puertosD{
+    background-image: url(./Puertos\ Delan.png);
+}
+
+.chasis{
+    background-image: url(./chasis.webp);
+}
+
+.fa{
+    background-image: url(./fa.webp);
+}
+
+.peso{
+    background-image: url(./peso.webp);
+}
+

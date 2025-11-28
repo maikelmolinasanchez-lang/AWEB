@@ -1,0 +1,58 @@
+/*
+Miguel Angel Molina Sanchez 
+Octubre de 2025
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: url(./imagenes/paisaje.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+    background-color: grey;
+}
+
+header {
+    background-color: aliceblue;
+    margin: 10px auto;
+    border: 3px solid red;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+    width: 80%;
+    background-image: url(./imagenes/colorful.jpg);
+}
+
+header p {
+    margin: 10px;
+}
+
+.grid{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    width: 80%;
+    margin: auto auto;
+}
+
+.grid img{
+    width: 100%;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
+
+img{
+    transition: all 0.35s linear;
+}

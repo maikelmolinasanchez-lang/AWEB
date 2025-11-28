@@ -1,0 +1,62 @@
+/*Bolas y Lineas
+Miguel Angel Molina*/
+    
+
+
+div{
+    width: 200px;
+    height: 100px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+#LineaNegra{
+    background-color: black;
+    clear: both;
+    width: 100%;
+    color: white;
+}
+
+#BolaAzul1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    display: inline-block;
+    margin: 10px;
+}
+
+#BolaAmarilla{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+}
+
+#BolaRoja{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+}
+
+#BolaAzul{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+}
+
+#LineaVerde{
+    background-color: green;
+    width: 100%;
+    clear: both;
+}
+

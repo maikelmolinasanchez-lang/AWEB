@@ -1,0 +1,121 @@
+/*
+ Práctica 13: Menús Verticales y Horizontales
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+
+  img {
+    float: left;
+    width: 65%;
+    border: 6px double;
+  }
+}
+
+.menuH {
+  overflow: hidden;
+  border: 5px double;
+
+}
+
+.menuV {
+  float: left;
+  width: 26%;
+  overflow: hidden;
+  border: 5px double;
+}
+
+.menuV a {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+}
+
+.menuV a:hover {
+  background-color: white;
+  color: black;
+}
+
+.menuH a {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 20px;
+
+}
+
+.menuH a:hover {
+  background-color: white;
+  color: black;
+}
+
+  h1 {
+     text-align: center;
+  }
+
+  .menuF {
+     display: flex;
+     justify-content: space-around;
+     width: 80%;
+     margin: 20px auto;
+     overflow: hidden;
+     border-top: 2px black solid;
+  }
+
+  .menuF a {
+     text-decoration: none;
+     background-color: rgb(250, 2, 2);
+     color: black;
+     padding: 20px;
+     flex-grow: 1;
+     text-align: center;
+   }
+
+   .menuF a:hover{
+      background-color: aqua;
+      border-bottom: 1px solid black;
+   }
+
+  .menuF a:first-child,
+  .menuG a:first-child {
+     border-bottom-left-radius: 20px;
+  }
+
+  .menuF a:last-child,
+  .menuG a:last-child {
+     border-bottom-right-radius: 20px;
+  }
+
+  .menuF a:nth-child(2) .menuGrid a:nth-child(2) {
+     background-color: red;
+  }
+
+  .menuG {
+     display: grid;
+     overflow: hidden;
+     width: 80%;
+     margin: 20px auto;
+     border-top: 2px black solid;
+     grid-template-columns: repeat(4, 1fr);
+
+  }
+
+  .menuG a {
+     text-decoration: none;
+     background-color: rgb(76, 255, 11);
+     color: black;
+     padding: 20px;
+     text-align: center;
+
+  }
+
+  .menuG a:hover {
+     background-color: rgb(180, 160, 160);
+     border-bottom: 1px solid black;
+  }
