@@ -1,0 +1,22 @@
+/* 
+    Miguel Angel Molina Sanchez
+    6 de Octubre 2025
+*/
+    body{
+            background-color: rgb(97, 229, 185);
+            color: rgb(0, 0, 0);
+        }
+    h1{
+        color: rgb(0, 0, 0);
+        
+    }
+    div{
+        border: rgb(0, 0, 0) 2px solid;
+        background-color: aliceblue;
+        color: rgb(10, 21, 183);
+    }
+    h1{
+        border: solid;
+        background-color: rgb(161, 245, 181);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
